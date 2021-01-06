@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=xinput --set-prop 14 "libinput Accel Profile Enabled" 0, 1
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_US]=Disable mouse acceleration
+Comment[en_US]=No description
+X-GNOME-Autostart-Delay=0
