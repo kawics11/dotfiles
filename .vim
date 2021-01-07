@@ -1,1 +1,0 @@
-/home/andris/.config/.SpaceVim/
