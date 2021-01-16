@@ -130,3 +130,4 @@ fi
 
 eval "$(gh completion -s bash)"
 eval "$(pip3 completion --bash)"
+set -o vi
