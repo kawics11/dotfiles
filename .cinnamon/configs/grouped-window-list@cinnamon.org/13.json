@@ -167,6 +167,7 @@
             "org.gnome.Terminal.desktop",
             "nemo.desktop",
             "firefox.desktop",
+            "thunderbird.desktop",
             "rhythmbox.desktop"
         ]
     },
