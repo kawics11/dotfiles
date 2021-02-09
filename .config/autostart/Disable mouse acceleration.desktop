@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=xinput --set-prop 14 "libinput Accel Profile Enabled" 0, 1
+Exec=xinput --set-prop 17 "libinput Accel Profile Enabled" 0, 1
 X-GNOME-Autostart-enabled=true
 NoDisplay=false
 Hidden=false

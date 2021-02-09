@@ -86,7 +86,7 @@ skin=default
 
 [Layout]
 output_lines=0
-left_panel_size=62
+left_panel_size=66
 top_panel_size=19
 message_visible=true
 keybar_visible=true
