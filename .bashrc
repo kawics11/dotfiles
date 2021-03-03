@@ -43,7 +43,7 @@ esac
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
-force_color_prompt=yes
+#force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
@@ -129,3 +129,10 @@ fi
 eval "$(gh completion -s bash)"
 eval "$(pip3 completion --bash)"
 set -o vi
+shopt -s autocd
+shopt -s cdable_vars
+shopt -s cdspell
+shopt -s dotglob
+set -o notify
+set -o noclobber
+IGNOREEOF=100
